@@ -15,9 +15,9 @@
   $imageType = 'image/jpeg';
 
   if ($imageWidth > 0 && $imageHeight > 0) {
-    $convertedImage = '//' . $_SERVER['SERVER_NAME'] . '/timthumb.php?src=' . $image . '&w=' . $imageWidth . '&h=' . $imageHeight;
+    $convertedImage = 'http://' . $_SERVER['SERVER_NAME'] . '/timthumb.php?src=' . $image . '&w=' . $imageWidth . '&h=' . $imageHeight;
   } else {
-    $convertedImage = '//' . $_SERVER['SERVER_NAME'] . '/timthumb.php?src=' . $image . '&w=' . rand(100,400) . '&h=' . rand(100,400);
+    $convertedImage = 'http://' . $_SERVER['SERVER_NAME'] . '/timthumb.php?src=' . $image . '&w=' . rand(100,400) . '&h=' . rand(100,400);
   }
 
   header('Content-Type:' . $imageType);
