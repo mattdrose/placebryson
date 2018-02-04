@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6dfbbfa8bdee90ba5eaa069eca47e65a",
+    "content-hash": "187276db4f7aa8fea6689f886ccb4c81",
     "packages": [
         {
             "name": "claviska/simpleimage",
-            "version": "3.3.3",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/claviska/SimpleImage.git",
-                "reference": "31ba5b8358e1663a2813e2ada7242fa8d97a96dc"
+                "reference": "b78d2f6d1cfbc94f6e2257a83b6f44f6d7ad9c95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/31ba5b8358e1663a2813e2ada7242fa8d97a96dc",
-                "reference": "31ba5b8358e1663a2813e2ada7242fa8d97a96dc",
+                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/b78d2f6d1cfbc94f6e2257a83b6f44f6d7ad9c95",
+                "reference": "b78d2f6d1cfbc94f6e2257a83b6f44f6d7ad9c95",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
-            "time": "2017-09-12T09:03:56+00:00"
+            "time": "2017-07-18T21:41:47+00:00"
         },
         {
             "name": "league/color-extractor",

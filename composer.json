@@ -1,5 +1,6 @@
 {
     "require": {
-        "seydoggy/placeholder": "^1.0"
+        "seydoggy/placeholder": "^1.0",
+        "claviska/SimpleImage": "3.3.2"
     }
 }
