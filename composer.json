@@ -1,6 +1,15 @@
 {
+    "name": "mattdrose/placebryson",
+    "description": "Bryson... whenever you need him.",
+    "license": "MIT",
     "require": {
-        "seydoggy/placeholder": "^1.0",
-        "claviska/SimpleImage": "3.3.2"
-    }
+        "claviska/simpleimage": "3.3.2"
+    },
+    "authors": [
+        {
+            "name": "Matt Rose",
+            "homepage": "https://mattrose.ca/",
+            "role": "Developer"
+        }
+    ]
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "187276db4f7aa8fea6689f886ccb4c81",
+    "content-hash": "954ad625e919765929b71c66fd7fb984",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -98,43 +98,6 @@
                 "palette"
             ],
             "time": "2016-12-15T09:30:02+00:00"
-        },
-        {
-            "name": "seydoggy/placeholder",
-            "version": "v1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/seyDoggy/placeholder.git",
-                "reference": "3d6a51ebdfccb521616d480da77b878ca1348842"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/seyDoggy/placeholder/zipball/3d6a51ebdfccb521616d480da77b878ca1348842",
-                "reference": "3d6a51ebdfccb521616d480da77b878ca1348842",
-                "shasum": ""
-            },
-            "require": {
-                "claviska/simpleimage": "3.3.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "seydoggy": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Adam Merrifield",
-                    "homepage": "https://adam.merrifield.ca/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A SimpleImage class extension for random placeholder image retrieval.",
-            "time": "2017-03-26T22:29:46+00:00"
         }
     ],
     "packages-dev": [],

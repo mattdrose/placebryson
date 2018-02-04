@@ -6,11 +6,14 @@
  * autoloader file.
  */
 require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/PlaceHolder.php';
+
 /**
  * Define a variable or constant that points to the image folder
  */
 define('IMAGEPATH', dirname(__FILE__).'/images/');
+
 /**
  * Initialize the PlaceHolder object
  */
-$placeholder = new \seydoggy\PlaceHolder(IMAGEPATH);
+$placeholder = new PlaceHolder(IMAGEPATH);
