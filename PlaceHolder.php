@@ -134,7 +134,7 @@ class PlaceHolder extends \claviska\SimpleImage
 
         if (isset($_GET['parameter'])) {
 
-            $this->parameters = explode('-',$_GET['parameter']);
+            $this->parameters = explode('/',$_GET['parameter']);
 
             if (is_array($this->parameters) && count($this->parameters) >= 1){
 
@@ -415,9 +415,9 @@ class PlaceHolder extends \claviska\SimpleImage
     private function showFormat()
     {
         echo "<p>Please enter at URI that contains at least a width and height parameter, like so:
-            <p><a href=\"400-300\">".$_SERVER['HTTP_HOST']."/400-300</a>
+            <p><a href=\"400/300\">".$_SERVER['HTTP_HOST']."/400/300</a>
             <p>Or for more excitement, try an additional parameter such as 'bw', 'sepia', 'sketch', 'pixelate' or 'random':
-            <p><a href=\"400-300-random\">".$_SERVER['HTTP_HOST']."/400-300-random</a>";
+            <p><a href=\"400/300/random\">".$_SERVER['HTTP_HOST']."/400/300/random</a>";
     }
 
     /**
