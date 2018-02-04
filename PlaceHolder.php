@@ -430,20 +430,20 @@ class PlaceHolder extends \claviska\SimpleImage
     {
         switch ($message) {
         case 'path':
-            echo "Sorry Dave, I cannot find or write to the images folder with the path:
+            echo "Sorry brev, I cannot find or write to the images folder with the path:
                 <p>\"$this->imageFolder\".
                 <p>Please check your spelling and/or permissions and try again.";
             break;
 
         case 'param':
-            echo "<p>Sorry Dave, I can't do that.";
+            echo "<p>Sorry brev, I can't do that.";
 
             $this->showFormat();
 
             break;
 
         case 'nan':
-            echo "<p>Sorry Dave, ";
+            echo "<p>Sorry brev, ";
 
             if (!is_numeric($this->parameters[0]) && !is_numeric($this->parameters[1])) {
 
@@ -472,7 +472,7 @@ class PlaceHolder extends \claviska\SimpleImage
             break;
 
         case 'min':
-            echo "<p>Sorry Dave, ";
+            echo "<p>Sorry brev, ";
 
             if ($this->parameters[0] < 16 && $this->parameters[1] < 16) {
 
@@ -497,7 +497,7 @@ class PlaceHolder extends \claviska\SimpleImage
             break;
 
         default:
-            echo "<p>Sorry Dave, the door is ajar.
+            echo "<p>Sorry brev, the door is ajar.
                 <p>If you do not try to hold your breath, exposure to space for approximately 30 seconds is unlikely to produce permanent injury. Holding your breath, however, is likely to damage your lungs and you'll have eardrum trouble if your Eustachian tubes are badly plugged up.
                 <p>Theory predicts -- and my own human testing with the last crew confirms -- that exposure to vacuum causes no immediate injury. You will not explode. Your blood will not boil. You will not freeze. You will not instantly lose consciousness.
                 <p>After 30 seconds, however, you will die a slow, silent death of unimaginable peace and tranquility.";
